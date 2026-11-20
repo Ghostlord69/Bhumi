@@ -1,0 +1,31 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Local uploads
+uploads/
+land-registry-uploads/
+
+# Build / install artifacts
+frontend/node_modules/
+frontend/dist/
+backend/target/
+backend/data/
+ai-service/.venv/
+ai-service/**/__pycache__/
+**/__pycache__/
+*.pyc
+.mplcache/
+*.tsbuildinfo
+
+# Office lock files
+~$*
+
+# Large OCR downloads (keep the small hindi sample under samples/handwritten/hindi/)
+samples/handwritten/hindi/words_full/
+ai-service/data/raw/**/*.zip
+
+# Generated PDFs (keep sources in docs/ if needed)
+*.pdf
+!samples/**/.gitkeep

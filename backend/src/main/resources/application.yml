@@ -1,0 +1,27 @@
+server:
+  # Avoid OrbStack (8080) and local node services (8081/8082)
+  port: 8090
+
+spring:
+  application:
+    name: land-registry-backend
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 12MB
+  # In-memory mode by default. Profile `sqlite` clears these excludes (see application-sqlite.yml).
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+      - org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration
+
+app:
+  jwt:
+    secret: bhumi-local-dev-secret-key-must-be-32b!
+    expiry-ms: 86400000
+  storage:
+    documents-dir: ${user.home}/land-registry-uploads
+  ai:
+    # Override in Docker with APP_AI_BASE_URL=http://ai:8000
+    base-url: ${APP_AI_BASE_URL:http://localhost:8000}

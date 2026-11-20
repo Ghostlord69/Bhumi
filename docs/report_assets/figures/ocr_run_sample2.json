@@ -1,0 +1,65 @@
+{
+  "sample": "samples/handwritten/manual_tests/2.jpg",
+  "bands": [
+    {
+      "i": 1,
+      "y1": 650,
+      "y2": 788,
+      "tess": "“KHASRA +. @e | |",
+      "trocr": "\" Khasra, 88 ) )",
+      "chosen": "\" Khasra, 88 ) )",
+      "score": 0.92
+    },
+    {
+      "i": 2,
+      "y1": 894,
+      "y2": 996,
+      "tess": "KHATS Sor",
+      "trocr": "skhata i 22000",
+      "chosen": "skhata i 22000",
+      "score": 0.92
+    },
+    {
+      "i": 3,
+      "y1": 1090,
+      "y2": 1203,
+      "tess": "STATE ! Wavyyanag",
+      "trocr": "STATE : Haryana",
+      "chosen": "STATE : Haryana",
+      "score": 0.74
+    },
+    {
+      "i": 4,
+      "y1": 1362,
+      "y2": 1457,
+      "tess": "KHEWAT: A है",
+      "trocr": "\" KENNETTON",
+      "chosen": "KHEWAT: A है",
+      "score": 0.85
+    }
+  ],
+  "fields": {
+    "documentType": "JAMABANDI",
+    "language": "mixed",
+    "ulpin": null,
+    "khasraNumber": "88/1",
+    "surveyNumber": null,
+    "khataNumber": "22",
+    "khewatNumber": "8",
+    "khatauniNumber": null,
+    "parcelIdType": "KHASRA",
+    "matchTier": "PARCEL",
+    "ownerName": null,
+    "village": null,
+    "tehsil": null,
+    "district": null,
+    "state": "Haryana",
+    "areaAcres": null,
+    "landType": "AGRICULTURAL",
+    "latitude": null,
+    "longitude": null,
+    "locateUrl": null,
+    "confidence": 0.842,
+    "ocrLineCount": 11
+  }
+}

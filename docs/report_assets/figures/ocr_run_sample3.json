@@ -1,0 +1,28 @@
+{
+  "sample": "samples/handwritten/manual_tests/3.jpg",
+  "bands": [],
+  "fields": {
+    "documentType": "JAMABANDI",
+    "language": "mixed",
+    "ulpin": "A1NE0ETTHR51FA",
+    "khasraNumber": "४/५०",
+    "surveyNumber": null,
+    "khataNumber": null,
+    "khewatNumber": null,
+    "khatauniNumber": null,
+    "parcelIdType": "ULPIN",
+    "matchTier": "ULPIN",
+    "ownerName": null,
+    "village": null,
+    "tehsil": null,
+    "district": null,
+    "state": "Haryana",
+    "areaAcres": 101.0,
+    "landType": "AGRICULTURAL",
+    "latitude": null,
+    "longitude": null,
+    "locateUrl": null,
+    "confidence": 0.9,
+    "ocrLineCount": 34
+  }
+}

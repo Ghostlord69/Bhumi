@@ -1,0 +1,25 @@
+# Classroom local file DB (H2 in PostgreSQL mode). File: ./data/bhumi-demo.mv.db
+# Passwords use reversible Base64 encoding — demo only, not production security.
+# Run: ./mvnw spring-boot:run -Dspring-boot.run.profiles=sqlite
+
+spring:
+  # Replace default excludes so JDBC + Flyway + H2 console start for the classroom file DB.
+  autoconfigure:
+    exclude: []
+  datasource:
+    # FILE_LOCK=NO is fine for single-user classroom demo (avoids stale lock files).
+    url: jdbc:h2:file:./data/bhumi-demo;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;FILE_LOCK=NO;DB_CLOSE_DELAY=-1
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  flyway:
+    enabled: true
+    locations: classpath:db/migration-sqlite
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+logging:
+  level:
+    org.flywaydb: INFO

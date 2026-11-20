@@ -1,0 +1,10 @@
+{
+  "name": "IIIT-INDIC-HW-WORDS-Hindi (sample)",
+  "language": "हिन्दी",
+  "source": "https://huggingface.co/datasets/c3rl/IIIT-INDIC-HW-WORDS-Hindi",
+  "original": "https://ilocr.iiit.ac.in/dataset/18/",
+  "citation": "Gongidi & Jawahar, ICDAR 2021 — IIIT-INDIC-HW-WORDS",
+  "sample_count": 300,
+  "full_dataset_words": 95431,
+  "note": "Word-level handwritten Devanagari — best starting point for OCR on Hindi property papers."
+}

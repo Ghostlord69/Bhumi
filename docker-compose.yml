@@ -1,0 +1,52 @@
+services:
+  ai:
+    build: ./ai-service
+    container_name: bhumi-ai
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  backend:
+    build: ./backend
+    container_name: bhumi-backend
+    ports:
+      - "8090:8090"
+    environment:
+      APP_AI_BASE_URL: http://ai:8000
+      # Optional classroom file DB (uncomment and rebuild if you want H2 on disk):
+      # SPRING_PROFILES_ACTIVE: sqlite
+    depends_on:
+      - ai
+    restart: unless-stopped
+
+  frontend:
+    build: ./frontend
+    container_name: bhumi-frontend
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # Optional Postgres (not required for the default in-memory demo).
+  # Start with: docker compose --profile postgres up -d postgres
+  postgres:
+    profiles: ["postgres"]
+    image: postgres:16-alpine
+    container_name: bhumi-postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-bhumi}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-bhumi}
+      POSTGRES_DB: ${POSTGRES_DB:-land_registry}
+    volumes:
+      - bhumi_pg_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  bhumi_pg_data:

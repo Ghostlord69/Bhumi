@@ -1,0 +1,13 @@
+package com.landregistry.domain;
+
+public enum PropertyStatus {
+    PENDING_AI,
+    AI_VERIFIED_AWAITING_AUTHENTICATOR,
+    NEEDS_PHYSICAL_VERIFICATION,
+    PENDING_REGISTRY,
+    LIVE,
+    REJECTED,
+    PURCHASE_REQUESTED,
+    PENDING_TRANSFER,
+    SOLD
+}

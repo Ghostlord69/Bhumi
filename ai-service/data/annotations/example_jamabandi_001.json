@@ -1,0 +1,11 @@
+{
+  "image": "samples/printed/jamabandi_001.jpg",
+  "documentType": "JAMABANDI",
+  "fields": [
+    { "name": "ownerName", "value": "Ramesh Kumar", "bbox": [120, 340, 410, 390] },
+    { "name": "khasraNumber", "value": "123/4", "bbox": [120, 420, 260, 460] },
+    { "name": "village", "value": "Rampur", "bbox": [120, 480, 300, 520] },
+    { "name": "district", "value": "Raipur", "bbox": [120, 540, 300, 580] },
+    { "name": "areaAcres", "value": "2.5", "bbox": [120, 600, 200, 640] }
+  ]
+}

@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.12
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+pillow==10.4.0
+# High-accuracy OCR (handwritten / scanned pages)
+paddlepaddle==2.6.2
+paddleocr==2.8.1
+torch>=2.1.0
+torchvision>=0.16.0
+transformers==4.44.2
+ultralytics>=8.2.0
+# For Apple Silicon: CPU Paddle only (see ENVIRONMENT.md). Demo PNGs with bhumi_meta still work offline.
+# YOLO weights optional under ai-service/models/; OCR falls back to line bands when missing.

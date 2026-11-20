@@ -1,0 +1,20 @@
+{
+  "documentType": "JAMABANDI | RTC | SALE_DEED | KHATAUNI | OTHER",
+  "language": "en | hi | mixed",
+  "ulpin": "",
+  "khasraNumber": "",
+  "surveyNumber": "",
+  "khataNumber": "",
+  "khewatNumber": "",
+  "khatauniNumber": "",
+  "parcelIdType": "ULPIN | KHASRA | SURVEY | UNKNOWN",
+  "matchTier": "ULPIN | PARCEL | WEAK",
+  "ownerName": "",
+  "village": "",
+  "tehsil": "",
+  "district": "",
+  "state": "",
+  "areaAcres": null,
+  "landType": "AGRICULTURAL | RESIDENTIAL | OTHER",
+  "confidence": 0.0
+}

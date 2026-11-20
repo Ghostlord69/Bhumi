@@ -1,0 +1,57 @@
+{
+  "temp_jamabandi_ulpin_sihi.png": {
+    "ulpin": "HR06A1B2C3D4E5",
+    "khasraNumber": "123/4",
+    "surveyNumber": null,
+    "khataNumber": "45",
+    "khewatNumber": "12",
+    "ownerName": "Ramesh Kumar",
+    "village": "Sihi",
+    "state": "Haryana",
+    "matchTier": "ULPIN"
+  },
+  "temp_jamabandi_khasra_palla.png": {
+    "ulpin": null,
+    "khasraNumber": "88/1",
+    "surveyNumber": null,
+    "khataNumber": "22",
+    "khewatNumber": "8",
+    "ownerName": "Anita Sharma",
+    "village": "Palla",
+    "state": "Haryana",
+    "matchTier": "PARCEL"
+  },
+  "temp_jamabandi_house_nit.png": {
+    "ulpin": null,
+    "khasraNumber": "12/3",
+    "surveyNumber": null,
+    "khataNumber": "7",
+    "khewatNumber": "2",
+    "ownerName": "Priya Verma",
+    "village": "NIT",
+    "state": "Haryana",
+    "matchTier": "PARCEL"
+  },
+  "temp_jamabandi_survey_ap.png": {
+    "ulpin": null,
+    "khasraNumber": null,
+    "surveyNumber": "201/3",
+    "khataNumber": "88",
+    "khewatNumber": null,
+    "ownerName": "Lakshmi Reddy",
+    "village": "Anantapur Rural",
+    "state": "Andhra Pradesh",
+    "matchTier": "SURVEY"
+  },
+  "temp_jamabandi_hindi_labels.png": {
+    "ulpin": "HR06F7H9K2I2J0",
+    "khasraNumber": "125/10",
+    "surveyNumber": null,
+    "khataNumber": "45",
+    "khewatNumber": "12",
+    "ownerName": "Meera Singh",
+    "village": "Sihi",
+    "state": "Haryana",
+    "matchTier": "ULPIN"
+  }
+}

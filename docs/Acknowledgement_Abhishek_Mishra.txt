@@ -1,0 +1,18 @@
+Acknowledgement
+
+I express my sincere gratitude to my project supervisor, Dr. Dibakar Saha, Department of Computer Applications, National Institute of Technology Raipur, for his valuable guidance, constant encouragement and constructive suggestions throughout the development of this project entitled “Bhumi: AI-Assisted Land Registry and Marketplace System”. His support helped me complete this work in a systematic and meaningful manner.
+
+I am also thankful to Dr. Tripti Swarnkar, Head, Department of Computer Applications, National Institute of Technology Raipur, for providing the necessary facilities and a supportive academic environment to carry out this project work.
+
+I extend my thanks to all the faculty members of the Department of Computer Applications for their teaching, guidance and motivation during the MCA programme. I am grateful to my classmates and friends for their cooperation and helpful discussions during the implementation and testing of this system.
+
+Finally, I express my heartfelt thanks to my family for their patience, blessings and continuous support, without which this project would not have been possible.
+
+Place: Raipur
+Date: ____________________
+
+Abhishek Mishra
+Roll No: 24223002
+MCA-V Semester
+(Session: 2024-2027)
+National Institute of Technology Raipur
